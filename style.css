@@ -10,7 +10,7 @@
     margin: 0vh;
     padding: 0vh;
     box-sizing: border-box;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Nunito', sans-serif;
     
 }
 #background
@@ -113,7 +113,7 @@ p{
 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 50vh;
+    margin-bottom: 20vh;
 }
 #about_left
 {
@@ -209,5 +209,28 @@ p{
 
 .decorimg{
     border-radius: 50px;
+}
+
+.upper{
+    font-weight: bold;
+    font-size: 225%;
+}
+
+.col{
+    border-radius: 11px;
+    
+}
+.col-md-4{
+    padding: 3vh 1vw;
+    background-color: #0b1354;
+    border-radius: 30px;
+    scale:0.98;
+    transition: all 0.5s;
+}
+.col-md-4:hover{
+    background-color: #0b1354;
+    border-radius: 30px;
+    margin-top: 2vh;
+    scale:1;
 }
 
