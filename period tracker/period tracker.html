@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="period tracker.css">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="background"> 
+        <nav id = "nav">
+            <h1 id="nav_head">PERIODICITY</h1>
+            <ul id = "nav_list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="maincontent">
+        <div class="hero">
+            <div id="calendar"></div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+    <script>
+        // Initialize evo-calendar in your script file or an inline <script> tag
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+              calendarEvents: [{
+                  id: 'bHay68s', // Event's ID (required)
+                  name: "Period start date", // Event name (required)
+                  date: "January/1/2020", // Event date (required)
+                  type: "holiday", // Event type (required)
+                  everyYear: false // Same event every year (optional)
+                },
+                {
+                  name: "Vacation Leave",
+                  badge: "02/13 - 02/15", // Event badge (optional)
+                  date: ["February/13/2020", "February/15/2020"], // Date range
+                  description: "Vacation leave for 3 days.", // Event description (optional)
+                  type: "event",
+                  color: "#63d867" // Event custom color (optional)
+                }
+              ]
+
+        })
+    })
+    </script>
+</body>
