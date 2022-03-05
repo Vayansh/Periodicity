@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* nunito bolder */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 *{
     margin: 0vh;
     padding: 0vh;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+#background
+{
+    /* background-image: url("2.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+
+    background-image: linear-gradient(#ee008b ,#0b1354);
 }
 #nav
 {
@@ -15,9 +29,8 @@
 #nav_head
 {
     margin: 7vh;
- 
+    color: whitesmoke;
     font-size: 10vh;
-    color: black;
 }
 #nav_list
 {
@@ -37,22 +50,42 @@
 }
 #nav_list li a{
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-family :Roboto;
+    padding: 0.7vh;
 }
-#nav_list :hover a{border-bottom: 0.5vh solid #F765A3;}
-.btn
+#nav_list :hover a{border-bottom: 0.5vh solid #165baa;}
+.btn1
 {
     height: auto;
     margin: 5vh;
-	padding: 2.5vh;
+	padding: 1vh 3vh;
     margin-bottom: 10vh;
-	display: inline-block;
-    border-radius: 1vh;
-    background-color: skyblue;
-    font-style: 2.5vh;
+	/* display: inline-block; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(140, 0, 255, 0.835);
+    border: rgb(255, 255, 255) solid 1px;
+    font-size: 2vh;
+    transition: scale 0.5s;
+}
+.btn1:hover
+{
+    scale: 1.3;
+    height: auto;
+    margin: 5vh;
+	padding: 1vh 3vh;
+    margin-bottom: 10vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ee008b1a;
+    border: white solid 2px;
+    font-size: 2vh;
 }
 p{
+    color: whitesmoke;
     font-size: 2.5vh;
 }
 #Home
@@ -65,10 +98,12 @@ p{
 #Home h2 {
     margin: 5vh;
     font-size: 5vh;
+    color: whitesmoke;
 }
 #Home h1 {
     margin-bottom: 3vh;
     font-size: 7vh;
+    color: whitesmoke;
 }
 #about
 {
@@ -95,7 +130,7 @@ p{
 }
 #register
 {
-    background-color: #F765A3;
+    /* background-color: #F765A3; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,11 +141,41 @@ p{
 {
     margin: 5vh;
     font-size: 5vh;
-    
+    color: whitesmoke;
 }
 #register h1{
     font-size: 7vh;
     font-family: roboto;
-    
+    color: whitesmoke;
 }
+.btn2
+{
+    height: auto;
+    margin: 5vh;
+	padding: 1vh 3vh;
+    margin-bottom: 10vh;
+	/* display: inline-block; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(140, 0, 255, 0.835);
+    border: rgb(255, 255, 255) solid 1px;
+    font-size: 2vh;
+    transition: scale 0.5s;
+}
+.btn2:hover
+{
+    scale: 1.3;
+    height: auto;
+    margin: 5vh;
+	padding: 1vh 3vh;
+    margin-bottom: 10vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ee008b1a;
+    border: white solid 2px;
+    font-size: 2vh;
+}
+   
 

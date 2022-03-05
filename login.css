@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body-container{
+    background: rgba(156, 103, 140, 0.5) url("login2.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-blend-mode:hue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 4%;
+
+}
+.entry{
+    padding: 2px 12px;
+    margin: 3% 0;
+    border: black solid 2px;
+    border-radius: 15px;
+}
+.entry:hover{
+    padding: 2px 12px;
+    margin: 3%;
+    border: rgb(48, 151, 219) solid 2px;
+    border-radius: 15px;
+}
+.button{
+    background-color: rgb(255, 255, 255);
+    margin: 2%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    margin: 2%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: rgb(48, 151, 219) solid 2px;
+}
+.login-elements{
+    display: flex;
+    flex-direction: column;
+
+}
+.login-elements h1{
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.email{
+    display: flex;
+    flex-direction: horizontal;
+    margin: 4%;
+}
+#emailicon{
+    scale:0.8;
+}
+.password{
+    display: flex;
+    flex-direction: horizontal;
+}
+#passwordicon{
+    scale:0.8;
+}
+#subbutton{
+    display: flex;
+    margin-top: 3%;
+}
