@@ -2,12 +2,15 @@
 /* nunito bolder */
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/* acme */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Prompt&display=swap');
+
 
 *{
     margin: 0vh;
     padding: 0vh;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Acme', sans-serif;
     
 }
 #background
@@ -127,6 +130,12 @@ p{
     padding: 2vw;
     padding-bottom: 2vh;
     justify-content: space-between;
+}
+#about_right p:nth-child(1){
+    font-family: acme;
+}
+#about_right p:nth-child(2){
+    font-family: Nunito;
 }
 #register
 {
