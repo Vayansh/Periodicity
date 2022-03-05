@@ -137,6 +137,12 @@ p{
 #about_right p:nth-child(2){
     font-family: Nunito;
 }
+#features h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 10vh;
+}
+
 #register
 {
     /* background-color: #F765A3; */
@@ -186,5 +192,17 @@ p{
     border: white solid 2px;
     font-size: 2vh;
 }
-   
+.point
+{
+    color: whitesmoke;
+
+}   
+.upper
+{
+    color: whitesmoke;
+}
+.lower
+{
+    color: whitesmoke;
+}
 
