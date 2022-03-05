@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: border-box;
+}
+#nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+#nav_head
+{
+    margin: 7vh;
+ 
+    font-size: 10vh;
+    color: black;
+}
+#nav_list
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nav_list li
+{
+    list-style-type: none;
+    margin: 1vh;
+    font-size: 3vh;
+    display: block;
+    margin: 2vh;
+
+}
+#nav_list li a{
+    text-decoration: none;
+    color: black;
+    font-family :Roboto;
+}
+#nav_list :hover a{border-bottom: 0.5vh solid #F765A3;}
+.btn
+{
+    height: auto;
+    margin: 5vh;
+	padding: 2.5vh;
+    margin-bottom: 10vh;
+	display: inline-block;
+    border-radius: 1vh;
+    background-color: skyblue;
+    font-style: 2.5vh;
+}
+p{
+    font-size: 2.5vh;
+}
+#Home
+{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Home h2 {
+    margin: 5vh;
+    font-size: 5vh;
+}
+#Home h1 {
+    margin-bottom: 3vh;
+    font-size: 7vh;
+}
+#about
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50vh;
+}
+#about_left
+{
+    width: 50%;
+    padding: 2vh;
+    padding-left: 4vh;
+    padding-right: 1vh;
+}
+#about_right
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+    padding-bottom: 2vh;
+    justify-content: space-between;
+}
+#register
+{
+    background-color: #F765A3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+    justify-content: space-between;
+}
+#register h3
+{
+    margin: 5vh;
+    font-size: 5vh;
+    
+}
+#register h1{
+    font-size: 7vh;
+    font-family: roboto;
+    
+}
+
