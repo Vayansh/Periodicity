@@ -16,6 +16,7 @@
 
 .login-container{
     display: flex;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -53,11 +54,12 @@
 .login-elements{
     display: flex;
     flex-direction: column;
-
+    
 }
 .login-elements h1{
     font-size: 2rem;
     margin-bottom: 3%;
+    text-align: center;
 }
 
 .email{
@@ -78,4 +80,11 @@
 #subbutton{
     display: flex;
     margin-top: 3%;
+}
+.mb-3
+{
+    margin: 3vh;
+}
+.btn{
+    margin-left: 5vw;
 }
