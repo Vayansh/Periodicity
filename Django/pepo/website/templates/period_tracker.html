@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="period tracker.css">
-    <link rel="stylesheet" href="evo-calendar.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/period tracker.css' %}">
+    <link rel="stylesheet" href="{% static '/evo-calendar.min.css' %}">
     <title>Document</title>
 </head>
 <body>
@@ -13,9 +14,9 @@
         <nav id = "nav">
             <h1 id="nav_head">PERIODICITY</h1>
             <ul id = "nav_list">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
+                <li><a href="index">Home</a></li>
+                <li><a href="products">Products</a></li>
+                <li><a href="blog">Blogs</a></li>
                 <li><a href="#register">Register</a></li>
             </ul>
         </nav>
@@ -27,7 +28,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <script src="evo-calendar.min.js"></script>
+    <script src="{% static '/evo-calendar.min.js' %}"></script>
     <script>
         // Initialize evo-calendar in your script file or an inline <script> tag
         $(document).ready(function() {

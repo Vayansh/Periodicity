@@ -6,50 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     {% load static %}
-    <link rel="stylesheet"  href="{% static '/style.css' %}">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+    <title>Periodicity.com</title>
 </head>
 <body>
     <div id="background"> 
      <nav id = "nav">
-        <h1 id="nav_head">PERIODICITY</h1>
+        <h1 id="nav_head">PERIΩDICITY</h1>
         <ul id = "nav_list">
             <!-- <li><a href="#Home">Home</a></li>
             <li><a href="#about">About</a></li> -->
-            <li><a href="period tracker/period tracker.html">Period Tracker</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#blogs">Blogs</a></li>
-            <li><a href="/ranking page/ranking.html">Donations</a></li>
+
+            <li><a href="period_tracker" style="color:aquamarine;">Period Tracker</a></li>
+            <li><a href="products" style="color:aquamarine;">Products</a></li>
+            <li><a href="blog" style="color:aquamarine;">Blogs</a></li>
+            <li><a href="/ranking page/ranking.html" style="color:aquamarine;">Donations</a></li>
+
+<!--             <li><a href="period tracker/period_tracker.html">Period Tracker</a></li>
+            <li><a href="Products/products.html">Products</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="/ranking page/ranking.html">Donations</a></li> -->
+
             <!-- <li><a href="#register">Register</a></li> -->
-            <li><a href="#nh?">Need Help?</a></li>
+            <li><a href="#nh?" style="color:aquamarine;">Need Help?</a></li>
         </ul>
      </nav>
-
      <div id="Home">
-        <h2>Period Power!</h2>
-        <h1>End Period Poverty</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore praesentium libero molestias quis laudantium omnis nam officia, corrupti quaerat nulla eos<br> reiciendis, consectetur nobis sunt nesciunt delectus repudiandae in assumenda!</p>
+        <!-- <h2><b>Period Power</b><h2> -->
+        <h1><b>Period Poverty</b></h1>
+        <p style="text-align: center; color: aquamarine;">End the taboo! Let’s talk more about what has been a “women’s issue”.
+          <br>
+          Know more about periods.
+          </p>
         <div style="display: flex; flex-direction: row; margin-bottom: 10vh;">
             <!-- <button class="btn1">App</button>
             <button class="btn1">Store</button> -->
-        </div>    
-        <img class="decorimg" src="{% static '/1.jpg' %}" alt="img" style="height:60vh; width:50%;margin-bottom: 20vh;">
+        </div>
+        <img class="decorimg img1" src="{% static '/1-removebg-preview.png' %}" alt="img" style="height:60vh; width:50%;margin-bottom: 20vh;">
      </div>
      <section id="about">
         <div id="about_left">
-            <img class="decorimg" src="{% static '/2.jpg' %}" alt="img" style="height: 100%; width: 90%;">
+            <img class="decorimg img2" src="{% static '/2.jpg' %}" alt="img" style="height: 100%; width: 90%;">
         </div>
         <div id="about_right">
-            <p style="font-size: 3vh;">LET'S TALK ABOUT MENSTURAL HEALTH!</p>
-            <h1 style="font-size: 5vh; margin: 2vh; color: whitesmoke;">About us</h1> 
-            <p style="font-size: 2.5vh;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae tenetur nisi atque! Dolore fugit alias voluptatem ea pariatur minima eum quisquam. Veniam <br>tenetur laboriosam, temporibus voluptatem asperiores repellat optio!</p>
+            <p style="font-size: 4vh;">LET'S TALK ABOUT MENSTURAL HEALTH!</p>
+            <h1 style="font-size: 8vh; margin: 2vh; color: black; font-weight: bolder;">About us</h1> 
+            <p style="font-size: 3vh; color:aquamarine;">Menstruation, or getting period, is a normal and healthy part of life for most women. However, it’s still stigmatized in many places. Some girls and women feel embarrassed or ashamed when they have to address their periods. It can even cause some people to avoid certain activities and miss out on important experiences. That’s why menstruation awareness and events like National Period Day on 10 October and Menstrual hygiene Day on 28 May are so important.</p>
             <br>
             <br>
-            <img class="decorimg"src="{% static '/1.jpg' %}" alt="img" style="height: 100%; width: 90%;">
+            <!-- <img class="decorimg img3"src="1.jpg" alt="img" style="height: 100%; width: 90%;"> -->
         </div>
      </section>
      <section id="features">
-         <h1>Features</h1>
+         <h1 style="color: black; font-weight: bolder;">Features</h1>
         <div class="container-fluid panel my-5">
 
             <div class="row" id="first3">
@@ -58,7 +67,7 @@
                 <div class="panel my-3">
                   <div class="point my-3">01.</div>
                   <div class="upper my-3">Period tracker</div>
-                  <div class="lower">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quasi. Veritatis voluptatem fugit eligendi incidunt cum? Cum ut repellendus odio?</div>
+                  <div class="lower">Tracking your menstrual cycle simply means keeping a record of when you’re menstruating and documenting your cycle. It is beneficial for women who are trying to conceive. It also help in unwanted pregnancies and the more intimately you know your own body and its cycles, the more easily you can recognize when something is amiss. </div>
                 </div>
               </a>
               </div>
@@ -66,8 +75,8 @@
               <div class="col-md-4 ">
                 <div class="panel my-3">
                   <div class="point my-3">02.</div>
-                  <div class="upper my-3">Awareness Blogs</div>
-                  <div class="lower">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quasi. Veritatis voluptatem fugit eligendi incidunt cum? Cum ut repellendus odio?</div>
+                  <div class="upper my-3">Blogs and Awareness </div>
+                  <div class="lower">Read about some women's first period stories to figure out if everyone goes through the same thing. Turns out, there are some instances that have happened with quite a few, while there are others that are a little on the once in a blue moon spectrum. Who doesn’t like to hear about other people’s period stories?</div>
                 </div>
               </div>
     
@@ -75,14 +84,22 @@
                 <div class="panel my-3">
                   <div class="point my-3">03.</div>
                   <div class="upper my-3">Our Products</div>
-                  <div class="lower">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quasi. Veritatis voluptatem fugit eligendi incidunt cum? Cum ut repellendus odio?</div>
+                  <div class="lower">Many women cannot afford menstrual health products to meet their monthly needs, and this may impact their mental well-being. Improved access to affordable menstrual products is needed to support these women. Feminine hygiene products are necessities, not luxuries, and should be treated as such.</div>
                 </div>
               </div>
             </div>
-            
-           
-          
-    
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
 
     </section>
@@ -90,13 +107,11 @@
         <h3>Start using it by registering</h3>
         <h1>Join the millions of people</h1>
         <span>
-           {% load templates %}
-            <button class="btn2" onclick="location.href= templates/login.html" >Sign up</button>
+            <button class="btn2" onclick="location.href='login'" >Sign up</button>
             <button class="btn2">Log in</button>
         </span>
     </footer>
     <div style="height: 5vh; ">
-
     </div>
 </div>
 </body>
