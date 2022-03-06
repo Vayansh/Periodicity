@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* nunito bolder */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/* acme */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Prompt&display=swap');
+
+
+*{
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+#background
+{
+    background-image: url("2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    background-image: linear-gradient(rgb(60, 60, 144),#ee008b ,#0b1354);
+    /* background-image: url('compass.png'); */
+}
+#nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+#nav_head
+{
+    margin: 7vh;
+    color: whitesmoke;
+    font-size: 10vh;
+}
+#nav_list
+{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nav_list li
+{
+    list-style-type: none;
+    margin: 1vh;
+    font-size: 3vh;
+    display: block;
+    margin: 2vh;
+
+}
+#nav_list li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family :Roboto;
+    padding: 0.7vh;
+}
+#nav_list :hover a{border-bottom: 0.5vh solid #165baa;}
+.btn1
+{
+    height: auto;
+    margin: 5vh;
+	padding: 1vh 3vh;
+    margin-bottom: 10vh;
+	/* display: inline-block; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(140, 0, 255, 0.835);
+    border: rgb(255, 255, 255) solid 1px;
+    font-size: 2vh;
+    transition: scale 0.5s;
+}
+.btn1:hover
+{
+    scale: 1.3;
+    height: auto;
+    margin: 5vh;
+	padding: 1vh 3vh;
+    margin-bottom: 10vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ee008b1a;
+    border: white solid 2px;
+    font-size: 2vh;
+}
+p{
+    color: whitesmoke;
+    font-size: 2.5vh;
+}
+#Home
+{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Home h2 {
+    margin: 5vh;
+    font-size: 5vh;
+    color: whitesmoke;
+}
+#Home h1 {
+    margin-bottom: 3vh;
+    font-size: 7vh;
+    color: whitesmoke;
+}
+#about
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20vh;
+}
+#about_left
+{
+    width: 50%;
+    padding: 2vh;
+    padding-left: 4vh;
+    padding-right: 1vh;
+}
+#about_right
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+    padding-bottom: 2vh;
+    justify-content: space-between;
+}
+#about_right p:nth-child(1){
+    font-family: acme;
+}
+#about_right p:nth-child(2){
+    font-family: Nunito;
+}
+#features h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 10vh;
+}
+
+#register
+{
+    /* background-color: #F765A3; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+    justify-content: space-between;
+}
+#register h3
+{
+    margin: 5vh;
+    font-size: 5vh;
+    color: whitesmoke;
+}
+#register h1{
+    font-size: 7vh;
+    font-family: roboto;
+    color: whitesmoke;
+}
+.btn2
+{
+    height: auto;
+    margin: 5vh;
+	padding: 1vh 3vh;
+    margin-bottom: 10vh;
+	/* display: inline-block; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(140, 0, 255, 0.835);
+    border: rgb(255, 255, 255) solid 1px;
+    font-size: 2vh;
+    transition: scale 0.5s;
+}
+.btn2:hover
+{
+    scale: 1.3;
+    height: auto;
+    margin: 5vh;
+	padding: 1vh 3vh;
+    margin-bottom: 10vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ee008b1a;
+    border: white solid 2px;
+    font-size: 2vh;
+}
+.point
+{
+    color: whitesmoke;
+
+}   
+.upper
+{
+    color: whitesmoke;
+}
+.lower
+{
+    color: whitesmoke;
+}
+
+.decorimg{
+    border-radius: 50px;
+}
+
+.upper{
+    font-weight: bold;
+    font-size: 225%;
+}
+
+.col{
+    border-radius: 11px;
+    
+}
+.col-md-4{
+    padding: 3vh 1vw;
+    background-color: #0b1354;
+    border-radius: 30px;
+    scale:0.98;
+    transition: all 0.5s;
+}
+.col-md-4:hover{
+    background-color: #0b1354;
+    border-radius: 30px;
+    margin-top: 2vh;
+    scale:1;
+}
+
