@@ -60,25 +60,50 @@
 }
 #nav_list :hover a{border-bottom: 0.5vh solid #165baa;}
 
-/* #products{
+#products{
+    display: flex;
+    flex-direction: column;
+}
 
-} */
 .prodcont{
     display: flex;
     flex-direction: row;
+    margin: 0.5% 0;
     
 }
 #menstrualpads{
-    background-color: aqua;
-    border: solid;
+    background-color: rgba(255, 255, 255, 0.808);
     border-radius: 20px;
-    margin: 0 0.5vw;
+    margin: 1vh 0.5vw;
+    padding: 2% 4%;
 }
 #rmenstrualpads{
-    background-color: aqua;
-    margin: 0 0.5vw;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    margin: 1vh 0.5vw;
+    padding: 2% 4%;
 }
 #punder{
-    background-color: aqua;
-    margin: 0 0.5vw;    
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    margin: 1vh 0.5vw;
+    padding: 2% 4%;    
+}
+#menstrualcups{
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    margin: 1vh 0.5vw;
+    padding: 2% 4%;
+}
+#tampons{
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    margin: 1vh 0.5vw;
+    padding: 2% 4%;
+}
+#tensmac{
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    margin: 1vh 0.5vw;
+    padding: 2% 4%;
 }
